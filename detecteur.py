@@ -14,7 +14,7 @@ while cap.isOpened():
         annotated_frame = results[0].plot()
         
         cv2.imshow("Test IA YOLOv8", annotated_frame)
-        if cv2.waitKey(1) & 0xFF == ord("q"): # Appuie sur 'q' pour quitter
+        if cv2.waitKey(1) & 0xFF == ord("q"): # Appuyez sur 'q' pour quitter
             break
 cap.release()
 cv2.destroyAllWindows()
